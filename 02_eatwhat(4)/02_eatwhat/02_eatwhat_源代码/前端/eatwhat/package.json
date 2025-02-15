@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "image-tools": "^1.4.0",
+    "utf8": "^3.0.0",
+    "vue-jsonp": "^2.0.0"
+  },
+  "devDependencies": {
+    "vue-particles": "^1.0.9"
+  }
+}

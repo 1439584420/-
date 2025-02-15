@@ -1,0 +1,183 @@
+{
+	"easycom": {
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		 
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登入",
+				"enablePullDownRefresh": false
+			}
+		
+		},
+		{
+			
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "今天吃什么",
+				"navigationStyle":"custom"
+			}
+		}, {
+			
+			"path": "pages/gjx/gjx",
+			"style": {
+				"navigationBarTitleText": "天气预报" 
+				
+			}
+		},{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/spark/spark",
+			"style": {
+				"navigationBarTitleText": "ai",
+				"enablePullDownRefresh": false
+		}
+		},
+
+		{
+			"path" : "pages/searsh/searsh",
+			"style" : 
+			{
+				"navigationBarTitleText" : "今天吃什么",
+				"navigationStyle":"custom",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/user/user",
+			"style" : 
+			{
+				"navigationBarTitleText" : "今天吃什么",
+				"enablePullDownRefresh" : false,
+				"navigationStyle":"custom"
+				
+			}
+		},
+		{
+			"path" : "pages/about/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "给亲爱的用户的一封信",
+				"enablePullDownRefresh" : false
+			}}
+		
+	    ,{
+            "path" : "pages/dh/dh",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/list/list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "美食列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/add/add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/wd/wd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cs/cs",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/wdlist/wdlist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/xgwz/xgwz",
+            "style" :                                                                                    
+            {
+				"navigationStyle":"custom",
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/mifan.png",
+			"selectedIconPath": "static/mifan.png",
+			"text": "今天吃什么"
+		}, {
+			"pagePath": "pages/list/list",
+			"iconPath": "static/baobing.png",
+			"selectedIconPath": "static/baobing.png",
+			"text": "美食列表"
+		}, {
+			"pagePath": "pages/spark/spark",
+			"iconPath": "static/ai.png",
+			"selectedIconPath": "static/ai.png",
+			"text": "ai"
+		}, {
+			"pagePath": "pages/user/user",
+			"iconPath": "static/wd.png",
+			"selectedIconPath": "static/wd.png",
+			"text": "我的"
+		}]
+	}
+
+}

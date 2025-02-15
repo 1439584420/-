@@ -1,0 +1,75 @@
+
+.content {
+	font-size: 28rpx;
+}
+.topimg{
+	display: flex;
+	align-items: center;
+}
+.popup-success {
+	color: #fff;
+	background-color: #e1f3d8;
+}
+.success-text {
+	color: #09bb07;
+}
+.title {
+	text-align: center;
+	font-size: 100rpx;
+	font-weight: 500;
+	margin-bottom: 100rpx;
+}
+.headeat {
+	height: 200rpx;
+	width: 500rpx;
+}
+.logo {
+	height: 200rpx;
+	width: 200rpx;
+	margin-top: 200rpx;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50rpx;
+}
+.logo1 {
+	text-align: center;
+	margin: 0 auto;
+	height: 30vh;
+	width: 100%;
+}
+.logo2 {
+	height: 400rpx;
+	width: 400rpx;
+}
+.text-area {
+	display: flex;
+	justify-content: center;
+	width: 60%;
+	height: auto;
+	margin-top: 100rpx;
+}
+.box1 {
+	margin-left: 100rpx;
+	text-align: center;
+	font-size: 100rpx;
+	font-weight: 500;
+}
+.info {
+	bottom: 10%;
+	height: 20rpx;
+	width: 500rpx;
+}
+.title {
+	font-size: 36rpx;
+	color: #8f8f94;
+}
+.box2 {
+	justify-content: center;
+	width: 500rpx;
+	height: 300rpx;
+}
+.whateat {
+	width: 100%;
+	height: auto;
+}
+
